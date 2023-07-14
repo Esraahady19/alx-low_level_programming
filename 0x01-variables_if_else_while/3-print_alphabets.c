@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the aiphabets
+ * main - print the alphabets
  *
- * Return: Always 0 (success)
+ * Return Always 0 (success)
 */
 
-int main(void)
+int main()
 {
-char alp[52] = "absdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ;
-         int i;
-
-	for (i = 0; i < 52; i++)
-	{
-		putchar(alp[i])
-	}
-	putchar('\n')
-		return (0);
+    for(int x = 'A'; x <= 'Z'; x++)
+    {
+        x = tolower(x);
+        putchar(x);
+    }
+    return 0;
 }
