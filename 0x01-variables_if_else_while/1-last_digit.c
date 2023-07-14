@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- *main - entry point
+ * main - entry point
  *
- *description: print value of n status:
+ * description: print value of n status:
  *              greater than, is zero and is not less than 6.
- *Return: 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
