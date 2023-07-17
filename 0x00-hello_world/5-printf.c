@@ -3,6 +3,8 @@
 /**
  * main - entry point
  *
+ * description: printf
+ *
  * return always 0 (success)
 */
 
