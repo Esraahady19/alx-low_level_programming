@@ -6,12 +6,23 @@
  * Return Always 0 (success)
 */
 
-int main()
+int main(void)
 {
-    for(int x = 'A'; x <= 'Z'; x++)
-    {
-        x = tolower(x);
-        putchar(x);
-    }
-    return 0;
+	char c;
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(c <= 'Z') {
+			putchar(d);
+			d++;
+		}
+	putchar('\n');
+	return (0);
 }
