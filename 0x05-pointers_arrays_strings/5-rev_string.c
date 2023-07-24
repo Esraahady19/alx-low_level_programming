@@ -3,7 +3,7 @@
 /**
  * rev_string - function that prints string in reversed mood
  *
- * @s: the string input 
+ * @s: the string input
  *
  * Return: nothing
  */
@@ -16,7 +16,7 @@ void rev_string(char *s)
 	length = 0;
 
 	while (s[length] != '\0')
-	{ 
+	{
 		length++;
 	}
 
